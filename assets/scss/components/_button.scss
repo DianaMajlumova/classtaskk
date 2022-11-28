@@ -1,0 +1,53 @@
+.btns {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 160px;
+    top: 350px;
+    gap: 10px;
+    width: 347px;
+    height: 48px;
+
+    .orange_btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 36px;
+        gap: 10px;
+        width: 182px;
+        height: 48px;
+        background: #784F33;
+        border-radius: 37px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+
+        a {
+            color: white;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 28px;
+        }
+    }
+
+    .white_btn {
+
+        height: 48px;
+        width: 155px;
+        top: 0px;
+        border-radius: 37px;
+        padding: 10px 36px 10px 36px;
+
+        a {
+            color: #784F33;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 28px;
+        }
+
+    }
+}

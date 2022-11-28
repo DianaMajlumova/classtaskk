@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@700;900&family=Noto+Sans+Lao+Looped:wght@100&family=Noto+Serif+Oriya&family=Open+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.section_cards .cards .cards_width .main_card h3 {
+  font-family: Martel;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+.section_cards .cards .cards_width .main_card p {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(115, 115, 115);
+}
+.section_cards .cards .cards_width .blue_card h3 {
+  font-family: Martel;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: white;
+}
+.section_cards .cards .cards_width .blue_card p {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: white;
+}
+
+.matters .center_sentence .h2 {
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.matters .center_sentence .p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.matters_cards .matters_width .matter_card h2 {
+  font-family: Martel;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+}
+.matters_cards .matters_width .matter_card h5 {
+  font-family: Martel;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.advice .advice_page .advice_text h2 {
+  font-family: Martel;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+}
+.advice .advice_page .advice_text p {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.btns {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  padding: 160px;
+  top: 350px;
+  gap: 10px;
+  width: 347px;
+  height: 48px;
+}
+.btns .orange_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 36px;
+  gap: 10px;
+  width: 182px;
+  height: 48px;
+  background: #784F33;
+  border-radius: 37px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.btns .orange_btn a {
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 28px;
+}
+.btns .white_btn {
+  height: 48px;
+  width: 155px;
+  top: 0px;
+  border-radius: 37px;
+  padding: 10px 36px 10px 36px;
+}
+.btns .white_btn a {
+  color: #784F33;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+nav {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.nav_menu {
+  margin: 0 auto;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.prosecurse {
+  font-family: Martel;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+}
+
+ul {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  list-style: none;
+  width: 1500px;
+  text-decoration: none;
+  align-items: center;
+}
+ul li {
+  float: left;
+}
+
+.firtspage .main_page h1 {
+  top: 50px;
+  width: 40px;
+}
+
+nav {
+  width: 100%;
+}
+nav .nav {
+  width: 100%;
+}
+nav .nav .main_img {
+  background-size: 100%;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+nav .nav .main_img img {
+  width: 100%;
+}
+
+.firstpage {
+  min-height: 100vh;
+  background-image: url("../imgs/BestProductBackground.svg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgb(255, 255, 255);
+}
+.firstpage .main_page {
+  max-width: 700px;
+  text-align: center;
+  position: absolute;
+}
+.firstpage .main_page h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 64px;
+  font-family: Epilogue;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 80px;
+  text-align: left;
+  color: #252B42;
+  right: 200px;
+  margin-left: 150px;
+}
+.firstpage .main_page h4 {
+  color: #ffffff;
+  margin-bottom: 200px;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #737373;
+}
+
+.section_cards {
+  padding-top: 0px;
+  width: 100%;
+}
+.section_cards .cards {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+.section_cards .cards .cards_width {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section_cards .cards .cards_width .blue_card {
+  width: 200px;
+  height: 150px;
+  background-color: rgb(41, 92, 122);
+}
+.section_cards .cards .cards_width .blue_card i {
+  font-size: 40px;
+  display: flex;
+  margin-left: 20px;
+  color: white;
+}
+.section_cards .cards .cards_width .main_card {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+.section_cards .cards .cards_width .main_card i {
+  font-size: 40px;
+  display: flex;
+  margin-left: 20px;
+  color: rgb(41, 92, 122);
+}
+
+.matters .center_sentence {
+  margin-top: 8%;
+}
+.matters .center_sentence .h2 {
+  display: flex;
+  justify-content: center;
+}
+.matters .center_sentence p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  color: rgb(115, 115, 115);
+}
+
+.matters_cards {
+  display: flex;
+  align-items: center;
+  height: 170px;
+}
+.matters_cards .matters_width {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.matters_cards .matters_width .matter_card {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(255, 255, 255);
+}
+.matters_cards .matters_width .matter_card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.matters_cards .matters_width .matter_card h5 {
+  color: rgb(115, 115, 115);
+}
+
+.advice_page .advice_text {
+  margin-top: 8%;
+}
+.advice_page .advice_text .h2 {
+  display: flex;
+  justify-content: center;
+}
+.advice_page .advice_text p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  color: rgb(115, 115, 115);
+}/*# sourceMappingURL=main.css.map */

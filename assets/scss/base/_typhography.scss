@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@700;900&family=Noto+Sans+Lao+Looped:wght@100&family=Noto+Serif+Oriya&family=Open+Sans:wght@400;600;700&display=swap');
+//CARDS SECTIONS END 
+.section_cards {
+    .cards {
+        .cards_width {
+            .main_card {
+                h3 {
+                    font-family: Martel;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    text-align: left;
+
+                }
+
+                p {
+                    font-family: Open Sans;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    color: rgba(115, 115, 115, 1);
+                }
+            }
+
+            .blue_card {
+                h3 {
+                    font-family: Martel;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    text-align: left;
+                    color: white;
+                }
+
+                p {
+                    font-family: Open Sans;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+// CARDS SECTIONS END
+//Every Client Matters Section Start
+.matters {
+    .center_sentence {
+        .h2 {
+            font-family: 'Martel';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        .p {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}
+
+.matters_cards {
+    .matters_width {
+        .matter_card {
+            h2 {
+                font-family: Martel;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 50px;
+                text-align: left;
+
+            }
+
+            h5 {
+                font-family: Martel;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: center;
+
+            }
+        }
+    }
+}
+//  Every Client Matters Section End 
+// Practice Advice Start 
+.advice {
+    .advice_page {
+        .advice_text {
+            h2 {
+                font-family: Martel;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 50px;
+                text-align: center;
+            }
+
+            p {
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
+//  Practice Advice End 

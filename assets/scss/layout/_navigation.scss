@@ -1,0 +1,46 @@
+
+nav {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.nav_menu {
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.prosecurse {
+    font-family: Martel;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+ul {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    list-style: none;
+    width: 1500px;
+    text-decoration: none;
+    align-items: center;
+    li{
+        float:left;
+    }
+}
+
+.firtspage {
+    .main_page {
+        h1 {
+            top: 50px;
+            width: 40px;
+        }
+    }
+}
